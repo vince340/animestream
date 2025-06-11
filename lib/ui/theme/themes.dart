@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 /** this is the default theme */
 
 final lime = AnimeStreamTheme(
-  accentColor: Color(0xffCAF979),
+  accentColor: Color(0xffFF69B4),
   backgroundColor: Color.fromARGB(255, 24, 24, 24),
   backgroundSubColor: Color.fromARGB(255, 36, 36, 36),
   textMainColor: Colors.white,
@@ -14,7 +14,7 @@ final lime = AnimeStreamTheme(
 );
 
 final lightLime = AnimeStreamTheme(
-  accentColor: Color(0xffcaf979),
+  accentColor: Color(0xffFF1493),
   backgroundColor: Colors.white,
   textMainColor: Colors.black,
   textSubColor: Color.fromARGB(255, 82, 82, 82),
@@ -175,7 +175,7 @@ final neonGreenLight = AnimeStreamTheme(
  *
 The theme list in UI screen is generated from this list */
 List<ThemeItem> availableThemes = [
-  ThemeItem(id: 01, name: "Lime Zest", theme: lime, lightVariant: lightLime),
+  ThemeItem(id: 01, name: "Pink Focus", theme: lime, lightVariant: lightLime),
   ThemeItem(id: 02, name: "Monochrome", theme: monochrome, lightVariant: monochromeLight),
   ThemeItem(id: 03, name: "Cold Purple", theme: coldPurple, lightVariant: coldPurpleLight),
   ThemeItem(id: 04, name: "Hot Pink", theme: hotPink, lightVariant: hotPinkLight),
