@@ -1,0 +1,8 @@
+modules = ["cpp-clang14", "web", "swift-5.8"]
+run = "dart run inno_bundle:build --release"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "dart run inno_bundle:build --release"]
